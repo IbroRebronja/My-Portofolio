@@ -4,8 +4,8 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
-import { FormsModule } from '@angular/forms'; // Import FormsModule
-import { FooterComponent } from './footer/footer.component';  // Add FooterComponent
+import { FormsModule } from '@angular/forms'; 
+import { FooterComponent } from './footer/footer.component'; 
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,7 @@ import { FooterComponent } from './footer/footer.component';  // Add FooterCompo
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent,  // Keep the import here for ContactComponent
+    ContactComponent, 
     FormsModule,
     FooterComponent
   ],
