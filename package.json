@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:my-app": "node dist/my-app/server/server.mjs",
-    "deploy": "ng build --configuration production --base-href \"https://ibrorebronja.github.io/My-Portofolio/\" && npx gh-pages -d dist/my-app"
+    "deploy": "ng build --configuration production --base-href \"https://ibrorebronja.github.io/my-app/\" && npx gh-pages -d dist/my-app"
 
   },
   "private": true,
