@@ -52,7 +52,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/My-Portofolio/"
+              "baseHref": "/my-app/"
             },
             "development": {
               "optimization": false,
