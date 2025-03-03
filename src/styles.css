@@ -1,1 +1,100 @@
-/* You can add global styles to this file, and also import other style files */
+/* General reset and styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #f4f4f9; /* Light background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content from top */
+    align-items: center; /* Center horizontally */
+}
+
+/* App component container should center all child sections */
+app-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Keep content aligned from top */
+    align-items: center; /* Center all content horizontally */
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* General section styling */
+section {
+    width: 80%; /* Make section width 80% of screen size */
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Section titles */
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Individual section background colors */
+.about-section {
+    background-color: #ffffff;
+}
+
+.skills-section {
+    background-color: #f8f9fa;
+}
+
+.projects-section {
+    background-color: #ffffff;
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+/* Footer Styling */
+app-footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* Footer links */
+app-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+app-footer a:hover {
+    color: #d1e7ff;
+}
+
+/* Centering content inside each section */
+.about-section, .skills-section, .projects-section, .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section p {
+    max-width: 900px;
+    line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+        width: 95%; /* On smaller screens, make section width 95% */
+    }
+}

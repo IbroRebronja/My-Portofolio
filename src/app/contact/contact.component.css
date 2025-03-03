@@ -1,0 +1,98 @@
+/* Contact section styling */
+#contact {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header styling */
+#contact h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Styling for form container */
+#contact .container {
+    max-width: 900px; /* Limit the width of the form container */
+}
+
+/* Styling for form labels (adjust alignment) */
+#contact .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#contact .form-group label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left; /* Align label to the left */
+    margin-right: 0.5em;
+    font-weight: bold; /* Make label bold for better visibility */
+}
+
+/* Styling for input and textarea fields */
+#contact .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    padding: 12px; /* More padding for inputs */
+
+}
+
+/* Align the message text area (message) to left-center */
+#contact textarea.form-control {
+    text-align: left; /* Align text to the left */
+    padding-left: 12px; /* Add left padding to align text to the left-center */
+    padding-top: 12px; /* Ensure top padding for better visual alignment */
+    padding-bottom: 12px; /* Maintain consistent padding */
+    resize: vertical; /* Allow the user to resize the textarea vertically */
+}
+
+/* Focus styling for input and textarea */
+#contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button styling */
+#contact .btn {
+    background-color: #007bff;
+    border: none;
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contact .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    #contact .form-group {
+        margin-bottom: 1.5rem; /* Adjust bottom margin for better spacing on smaller screens */
+    }
+
+    #contact .form-control {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #contact .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #contact h2 {
+        font-size: 2rem;
+    }
+}
